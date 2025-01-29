@@ -39,7 +39,7 @@ export default function Navbar() {
           <li className={`${menuStyle} ${menuStyleHover}`}>Resources</li>
           <li className={`${menuStyle} ${menuStyleHover}`}>Contact Us</li>
         </ul>
-        <button className='bg-[#219ed3] text-white px-4 py-3 rounded-xl'>Connect Wallet</button>
+        <button className='block md:hidden bg-[#219ed3] text-white px-4 py-3 rounded-xl'>Connect Wallet</button>
       </nav>
     </div>
   );
