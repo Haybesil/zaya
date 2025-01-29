@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="flex justify-between items-center px-8 py-5 bg-white w-full">
+      <nav className="flex justify-between items-center px-4 md:px-8 py-5 bg-white w-full">
         <img src={logo} alt="Logo" />
         <ul className="gap-2 items-center relative hidden md:flex">
           <li className={`${menuStyle} bg-[#219ed3] rounded-full !text-white`}>Home</li>
@@ -39,7 +39,7 @@ export default function Navbar() {
           <li className={`${menuStyle} ${menuStyleHover}`}>Resources</li>
           <li className={`${menuStyle} ${menuStyleHover}`}>Contact Us</li>
         </ul>
-        <button className='block md:hidden bg-[#219ed3] text-white px-4 py-3 rounded-xl'>Connect Wallet</button>
+        <button className='block md:hidden text-[15px] bg-[#219ed3] text-white px-4 py-3 rounded-xl whitespace-nowrap'>Connect Wallet</button>
       </nav>
     </div>
   );
