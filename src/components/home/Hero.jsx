@@ -23,7 +23,7 @@ export default function Hero() {
           <p className="text-lg md:text-[30px] font-extralight pt-4 md:pt-6">
             Fast and accurate diagnosis of disease
           </p>
-          <div className='flex justify-start'>
+          <div className="flex justify-start">
             <ButtonSolid
               text="Learn More"
               title="Learn More"
@@ -34,8 +34,12 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-[160px] lg:-bottom-[60px] left-[170px] lg:right-[50px]">
-        <img src={Image1} alt="" className="" />
+      <div className="absolute bottom-[120px] md:bottom-[80px] lg:bottom-[-60px] left-[190px] md:left-[100px] lg:left-auto lg:right-[50px]">
+        <img
+          src={Image1}
+          alt=""
+          className="w-[250px] md:w-[350px] lg:w-[500px]"
+        />
       </div>
     </section>
   );
