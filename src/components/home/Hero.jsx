@@ -11,6 +11,7 @@ export default function Hero() {
         backgroundImage: `url(${Bg})`,
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
+        overflowX: 'hidden',
       }}
       className="relative bg-cover min-h-screen flex items-center"
     >

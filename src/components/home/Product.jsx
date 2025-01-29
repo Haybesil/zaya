@@ -21,7 +21,9 @@ export default function Product() {
     },
   ];
   return (
-    <div>
+    <div style={{
+      overflowX: 'hidden',
+    }}>
       <h2 className="text-[50px] md:text-[90px] font-light pt-10 pl-6 ">Our Products</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-y-10 md:gap-y-0 md:gap-6 p-6">
         {cards.map((card, index) => (

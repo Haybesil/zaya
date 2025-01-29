@@ -13,7 +13,9 @@ const VideoPlayer = () => {
   };
 
   return (
-    <div className="relative py-24">
+    <div className="relative py-24" style={{
+      overflowX: 'hidden',
+    }}>
       {/* Clickable full-width image */}
       <img
         src={Video}
