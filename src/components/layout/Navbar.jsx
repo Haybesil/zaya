@@ -12,7 +12,9 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="flex justify-between items-center px-4 md:px-8 py-5 bg-white w-full">
+      <nav className="flex justify-between items-center px-4 md:px-8 py-5 bg-white w-full" style={{
+        overflowX: 'hidden',
+      }}>
         <img src={logo} alt="Logo" />
         <ul className="gap-2 items-center relative hidden md:flex">
           <li className={`${menuStyle} bg-[#219ed3] rounded-full !text-white`}>Home</li>
