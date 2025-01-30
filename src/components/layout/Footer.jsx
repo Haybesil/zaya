@@ -83,7 +83,7 @@ export const Footer = () => {
 
           <div className="col-span-6 md:col-span-2 lg:col-span-2">
             <h2 className={`${titleStyle} whitespace-nowrap`}>Subscribe to our newsletter</h2>
-            <p className="text-[23px] md:text-[30px] mb-6">Receive all the latest Zaya news and updates straight to your inbox.</p>
+            <p className="text-[20px] md:text-[30px] mb-6">Receive all the latest Zaya news and updates straight to your inbox.</p>
             <form className="mb-9 flex flex-col gap-4 lg:items-center">
               <input
                 type="email"
