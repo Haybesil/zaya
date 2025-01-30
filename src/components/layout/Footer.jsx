@@ -20,7 +20,7 @@ export const Footer = () => {
   const footerStyle = "grid grid-cols-6 gap-12 lg:gap-16 py-12 px-4 lg:px-16";
 
   const titleStyle =
-    "text-2xl font-bold mb-6 text-[#2A3342] uppercase tracking-wide";
+    "text-[20px] text-2xl font-bold mb-6 text-[#2A3342] uppercase tracking-wide";
 
   const iconStyle =
     "flex items-center justify-center w-12 h-12 bg-[rgba(255,255,255,0.2)] rounded-full hover:bg-white hover:text-p-primary transition-all duration-200 cursor-pointer";
@@ -83,7 +83,7 @@ export const Footer = () => {
 
           <div className="col-span-6 md:col-span-2 lg:col-span-2">
             <h2 className={`${titleStyle} whitespace-nowrap`}>Subscribe to our newsletter</h2>
-            <p className="text-[30px] mb-6">Receive all the latest Zaya news and updates straight to your inbox.</p>
+            <p className="text-[25px] md:text-[30px] mb-6">Receive all the latest Zaya news and updates straight to your inbox.</p>
             <form className="mb-9 flex flex-col gap-4 lg:items-center">
               <input
                 type="email"
