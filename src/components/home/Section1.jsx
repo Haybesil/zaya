@@ -39,7 +39,7 @@ const Section1 = () => {
                 className="object-cover transform transition-transform duration-300 hover:scale-110"
               />
             </div>
-            <p className="pt-4 pl-6 pb-2 text-lg font-medium text-gray-700">
+            <p className="pt-4 pb-2 pl-6 text-[15px] md:text-lg font-medium text-gray-700">
               {card.text}
             </p>
           </div>
