@@ -1,7 +1,7 @@
 import React from "react";
 import { Facebook, Linkedin, Twitter, Instagram, Youtube } from "lucide-react";
 
-const logo = "../../../public/images/Logo-gri.svg";
+const logo = "/images/Logo-gri.svg";
 
 const  ProductLinks= [
   { name: "ZayaAI Dx" },
