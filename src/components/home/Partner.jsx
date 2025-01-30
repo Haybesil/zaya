@@ -6,7 +6,7 @@ import Image3 from '/images/clinica-life.svg';
 export default function Partner() {
   return (
     <div>
-      <h2 className=" text-[40px] md:text-[50px] pt-12 font-light pl-6 text-center text-[rgba(20,22,44,0.8)]">
+      <h2 className=" text-[40px] md:text-[50px] pt-12 font-light pl-0 md:pl-6 text-center text-[rgba(20,22,44,0.8)]">
         We are trusted by the best in domain
       </h2>
       <div id="indicators-carousel" className="relative w-full mt-8">
