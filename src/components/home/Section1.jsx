@@ -48,7 +48,7 @@ const Section1 = () => {
       <div className="flex flex-col md:flex-row justify-between px-6 pt-10">
         <div className="">
           <h2 className="text-[50px] md:text-[90px] font-light pt-10 pl-6 ">How it works</h2>
-          <p className="text-[23px] font-extralight pt-6 md:max-w-[55vw] leading-[35px]">
+          <p className="text-[20px] md:text-[23px] font-extralight pt-6 md:max-w-[55vw] leading-[35px]">
             Zaya enables easy remote access, second opinion diagnosis and
             collaboration, regardless of where the participants are.
             Pathologists or researchers can access images from anywhere, at any
