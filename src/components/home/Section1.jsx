@@ -98,7 +98,7 @@ const Section1 = () => {
             </svg>
             <div>
               <h3 className='text-[28px] font-medium'>Scan</h3>
-              <p className='text-[23px] font-light'>the image required for processing</p>
+              <p className='text-[20px] md:text-[23px] font-light'>the image required for processing</p>
             </div>
           </div>
           <div className="flex gap-5 border border-gray-500 px-5 py-5 rounded-3xl">
@@ -136,7 +136,7 @@ const Section1 = () => {
             </svg>
             <div>
               <h3 className='text-[28px] font-medium'>Upload</h3>
-              <p className='text-[23px] font-light'>the scan on to the ZAYA platform</p>
+              <p className='text-[20px] md:text-[23px] font-light'>the scan on to the ZAYA platform</p>
             </div>
           </div>
           <div className="flex gap-5 border border-gray-500 px-5 py-5 rounded-3xl">
@@ -180,7 +180,7 @@ const Section1 = () => {
             </svg>
             <div>
               <h3 className='text-[28px] font-medium'>Diagnosis</h3>
-              <p className='text-[23px] font-light md:max-w-[300px]'>receive rapid and accurate diagnosis assistance for more patients</p>
+              <p className='text-[20px] md:text-[23px] font-light md:max-w-[300px]'>receive rapid and accurate diagnosis assistance for more patients</p>
             </div>
           </div>
         </div>
